@@ -67,24 +67,3 @@ for i in lons:
 
 out.close()
 
-"""
-GAP = each_gap(-72.,4.,NET)	
-print('El gap azimutal es: %4.2f'%GAP)
-
-a1= azimuth(2,2,1.9,-10)
-print('azimuth(2,2,2,-10)= %s'%a1)
-a2= azimuth(2,2,5,-3)
-print('azimuth(2,2,5,-3)= %s'%a2)
-a3= azimuth(2,2,0,0)
-print('azimuth(2,2,0,0)= %s'%a3)
-a4= azimuth(2,2,0,4)
-print('azimuth(2,2,0,4)= %s'%a4)
-
-azz = sorted(np.random.randint(0,360,8))
-print(azz)
-
-
-gaps = gap(azz)	
-print(gaps)
-print('El gap azimutal es: %s'%(max(gaps)))
-"""
